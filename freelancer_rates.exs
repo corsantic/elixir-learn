@@ -17,4 +17,3 @@ defmodule FreelancerRates do
   end
 end
 
-IO.puts(FreelancerRates.days_in_budget(20000, 80, 11.0))
