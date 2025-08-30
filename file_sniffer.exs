@@ -31,7 +31,6 @@ end
 
 file = File.read!("coffee.jpg")
 
-# IO.inspect(file)
 IO.inspect(FileSniffer.type_from_binary(file))
 
 IO.inspect(FileSniffer.type_from_extension("exe"))
